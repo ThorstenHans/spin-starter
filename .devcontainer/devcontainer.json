@@ -1,6 +1,0 @@
-{
-  "name": "See .devcontainer/* for options",
-  "dockerComposeFile": [],
-  "service": "noop",
-  "postCreateCommand": "echo 'Please select a specific dev container from .devcontainer/* in VS Code.'"
-}
