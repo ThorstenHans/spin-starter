@@ -1,10 +1,10 @@
 # Spin Starter
 
-**Spin Starter** is a pre-configured [Development Container](https://containers.dev/) to help you getting started with the [Spin Framework](https://spinframework.dev).
+**Spin Starter** is set of pre-configured [Dev Containers](https://containers.dev/) to help you getting started with the [Spin Framework](https://spinframework.dev).
 
 ## What's Included
 
-The **Spin Starter** Development Container comes with support for building Spin applications using these programming languages:
+The **Spin Starter** Dev Containers come with support for building Spin applications using these programming languages:
 
 - JavaScript & TypeScript
 - Go (using TinyGo)
@@ -17,6 +17,17 @@ The latest stable release of `spin` CLI is installed and the following plugins a
 - `aka`
 - `kube`
 
-## Where to run a Development Container
+## Using the Dev Containers
 
-Umong other runtimes, you can run this Development Container either in [Visual Studio Code](https://code.visualstudio.com) or directly from within the [GitHub](https://github.com) WebUI using its [Codespaces](https://github.com/features/codespaces) feature.
+This repo provides multiple dev container definitions under `.devcontainer/`:
+
+- `.devcontainer/all-in-one` – All-in-one: Spin + Rust + (Tiny)Go + JS/TS + Python
+- `.devcontainer/rust` – Rust + Spin
+- `.devcontainer/go` – (Tiny)Go + Spin
+- `.devcontainer/js/ts` – JavaScript/TypeScript + Spin
+- `.devcontainer/python` – Python + Spin
+
+When opening this repo in VS Code or GitHub Codespaces:
+
+1. Open the command palette → **Dev Containers: Rebuild and Reopen in Container**
+2. When asked to **Select a dev container configuration**, choose the one you want.
