@@ -31,3 +31,5 @@ When opening this repo in VS Code or GitHub Codespaces:
 
 1. Open the command palette → **Dev Containers: Rebuild and Reopen in Container**
 2. When asked to **Select a dev container configuration**, choose the one you want.
+
+*Choosing a Dev Container configuration is also possible when creating a GitHub Codespace. Check the context menu and use the 'NEW WITH OPTIONS...' command in GitHub WebUI.*
